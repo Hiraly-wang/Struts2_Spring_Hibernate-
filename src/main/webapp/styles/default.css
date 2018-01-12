@@ -1,0 +1,291 @@
+/*****************************************************************************
+ * Copyright (c) 2015, www.qingshixun.com
+ *
+ * All rights reserved
+ *
+ *****************************************************************************/
+
+/********** 1. IMPORTS **********/
+@import url('../plugins/bootstrap/bootstrap.css');
+
+@import url('../plugins/bootstrap/bootstrap-override.css');
+
+@import url('../plugins/fontawesome/font-awesome.min.css');
+
+@import url('../plugins/bootstrap-toastr/toastr.css');
+
+@import url('../plugins/waitme/waitMe.css');
+
+@import url('../plugins/icheck/skins/all.css');
+
+/********** 2. STYLES **********/
+body {
+	font-size: 14px;
+	color: #636E7B;
+	background-color: #fff;
+}
+
+a {
+	outline: none !important;
+}
+
+a:hover, a:active, a:focus {
+	text-decoration: none;
+}
+
+.md-title {
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+.xlg-title {
+	margin: 0;
+	font-weight: 400;
+	color: #333;
+}
+
+.nav-contacts li .badge {
+	background: none;
+	font-weight: 500;
+	color: #333;
+}
+
+.pagination-split.pagination-metro>li>a, .pagination-split.pagination-metro>li>span {
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+}
+
+.people-group .media img {
+	width: 45px;
+}
+
+.people-group .list-group-item {
+	-moz-transition: all 0.2s ease-out 0s;
+	-webkit-transition: all 0.2s ease-out 0s;
+	transition: all 0.2s ease-out 0s;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	margin: 0;
+	border-width: 0;
+}
+
+.people-group .media-heading {
+	margin-top: 5px;
+}
+
+.people-group .media-heading, .people-group .media-body {
+	line-height: normal;
+}
+
+.contact-group {
+	margin-top: 20px;
+}
+
+.contact-group .media img {
+	width: 80px;
+}
+
+.contact-group .contact-list {
+	padding:0px;
+}
+
+.contact-group .media-heading {
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.img-circle {
+	border: 1px solid #eee;
+}
+
+.contact-group .media-heading small {
+	margin-left: 5px;
+	font-size: 13px;
+	font-weight: 400;
+	color: #999;
+}
+
+.contact-group .list-group-item {
+	border-color: #e7e7e7;
+	margin-top: 10px;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+}
+
+.contact-group .list-group-item:hover {
+	background-color: #fcfcfc;
+}
+
+.contact-group .list-group-item:hover .media-control {
+	display: block;
+}
+
+.contact-group .media-content {
+	margin-top: 5px;
+}
+
+.contact-group .media-content .fa {
+	font-size: 16px;
+	vertical-align: middle;
+	width: 20px;
+	color: #333;
+}
+
+.contact-group .media-content ul {
+	margin-top: 15px;
+	margin-bottom: 0;
+}
+
+.contact-group .media-content ul>li {
+	display: inline-block;
+	min-width: 200px;
+	margin-bottom: 5px;
+}
+
+.contact-group .media-control {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	display: none;
+}
+
+.contact-group .media-control button {
+	border-radius: 0px;
+}
+
+.mt0 {
+	margin-top: 0 !important;
+}
+
+.mt5 {
+	margin-top: 5px !important;
+}
+
+.mt10 {
+	margin-top: 10px !important;
+}
+
+.mt20 {
+	margin-top: 20px !important;
+}
+
+.mr10 {
+	margin-right: 10px !important;
+}
+
+.mr20 {
+	margin-right: 20px !important;
+}
+
+.ml5 {
+	margin-left: 5px !important;
+}
+
+.ml10 {
+	margin-left: 10px !important;
+}
+
+.mr5 {
+	margin-right: 5px !important;
+}
+
+.mr10 {
+	margin-right: 10px !important;
+}
+
+.mr15 {
+	margin-right: 15px !important;
+}
+
+.mr20 {
+	margin-right: 20px !important;
+}
+
+.mr30 {
+	margin-right: 30px !important;
+}
+
+.mb5 {
+	margin-bottom: 5px;
+}
+
+.mb8 {
+	margin-bottom: 8px;
+}
+
+.mb9 {
+	margin-bottom: 9px;
+}
+
+.mb10 {
+	margin-bottom: 10px;
+}
+
+.mb15 {
+	margin-bottom: 15px;
+}
+
+.mb20 {
+	margin-bottom: 20px;
+}
+
+.mb30 {
+	margin-bottom: 30px;
+}
+
+.nomargin {
+	margin: 0;
+}
+
+.nopadding {
+	padding: 0;
+}
+
+.padding10 {
+	padding: 10px;
+}
+
+.padding15 {
+	padding: 15px;
+}
+
+.padding20 {
+	padding: 20px;
+}
+
+.noborder {
+	border: 0;
+}
+
+.height200 {
+	height: 200px;
+}
+
+.height300 {
+	height: 300px;
+}
+
+.width100p {
+	width: 100%;
+}
+
+.width300 {
+	width: 300px;
+}
+
+.text-black {
+	color: #000;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+.page-header {
+	margin-top: 0px;
+	border-bottom: 2px solid #f27668;
+}

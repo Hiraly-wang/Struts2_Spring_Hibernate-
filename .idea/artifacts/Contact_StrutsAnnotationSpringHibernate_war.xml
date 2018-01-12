@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Contact-StrutsAnnotationSpringHibernate:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="contact-ssha.war">
+      <element id="artifact" artifact-name="Contact-StrutsAnnotationSpringHibernate:war exploded" />
+    </root>
+  </artifact>
+</component>
